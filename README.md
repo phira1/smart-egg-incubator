@@ -2,7 +2,6 @@
 
 Welcome to the official repository for my **ESP32 Powered Smart Egg Incubator**.  
 This project is part of my academic final-year work and demonstrates IoT, embedded systems, and automated hardware control.
-
 ---
 
 ## 🔹 Project Overview
@@ -42,9 +41,12 @@ This project automates the incubation process using an **ESP32 microcontroller**
 - ESP32 Wi-Fi library  
 - Optional: Mobile/web dashboard for monitoring  
 
+![Sensor Connection](images/sensor-connection.jpg)
+
 ---
 
 ## 🔹 System Architecture
+The overall system architecture:
 
 ```text
 Eggs → Incubator Tray → Sensors (Temp/Humidity) → ESP32 → Relay → Heater / Humidifier
